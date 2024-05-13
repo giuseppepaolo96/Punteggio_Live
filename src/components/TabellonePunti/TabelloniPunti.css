@@ -1,0 +1,84 @@
+.tabellone_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 50%;
+  height: max-content;
+  background-color: black;
+  border-bottom-right-radius: 10px;
+  padding: 1rem;
+}
+
+.tabellone_content {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  height: 100%;
+}
+
+.logo_squadre,
+.nome_squadre,
+.punteggio,
+.possesso_palla {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.punteggio span {
+  font-size: 1rem;
+}
+
+.possesso_palla span {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.set_timer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 3rem;
+}
+
+/* 
+.squadre {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  gap: 1rem;
+}
+
+.prima_squadra,
+.seconda_squadra {
+  width: 100%;
+  height: max-content;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5%;
+}
+
+.squadra_titolo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+
+
+
+ */
+h3,
+span {
+  color: white;
+}
